@@ -3,7 +3,7 @@ const increase = (state) => {
         ...state,
         count:state.count + 1
     };
-}
+};
 
 const decrease = (state) => {
     return {
@@ -15,5 +15,5 @@ const decrease = (state) => {
 const get = (state, key) => {
     return {
         state[key];
-    }
+    }; 
 };
